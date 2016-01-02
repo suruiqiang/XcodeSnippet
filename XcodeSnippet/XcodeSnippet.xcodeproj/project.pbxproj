@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71784B551C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B481C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet */; };
-		71784B561C37D2FD0082BE3A /* createUItextField.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B491C37D2FD0082BE3A /* createUItextField.codesnippet */; };
-		71784B571C37D2FD0082BE3A /* createSlider.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B4A1C37D2FD0082BE3A /* createSlider.codesnippet */; };
-		71784B591C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B4C1C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet */; };
-		71784B5A1C37D2FD0082BE3A /* implUITableViewDataSource.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B4D1C37D2FD0082BE3A /* implUITableViewDataSource.codesnippet */; };
-		71784B5B1C37D2FD0082BE3A /* createNsFetchRequest.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B4E1C37D2FD0082BE3A /* createNsFetchRequest.codesnippet */; };
-		71784B5C1C37D2FD0082BE3A /* createAsyncConnection.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B4F1C37D2FD0082BE3A /* createAsyncConnection.codesnippet */; };
-		71784B5D1C37D2FD0082BE3A /* createSwitchView.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B501C37D2FD0082BE3A /* createSwitchView.codesnippet */; };
-		71784B5E1C37D2FD0082BE3A /* implUIWebViewDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B511C37D2FD0082BE3A /* implUIWebViewDelegate.codesnippet */; };
-		71784B5F1C37D2FD0082BE3A /* createAlertView.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B521C37D2FD0082BE3A /* createAlertView.codesnippet */; };
-		71784B601C37D2FD0082BE3A /* createNSoperation.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B531C37D2FD0082BE3A /* createNSoperation.codesnippet */; };
-		71784B611C37D2FD0082BE3A /* createUIbutton.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 71784B541C37D2FD0082BE3A /* createUIbutton.codesnippet */; };
+		714584061C37D85A005FA212 /* createAlertView.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FA1C37D85A005FA212 /* createAlertView.codesnippet */; };
+		714584071C37D85A005FA212 /* createAsyncConnection.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FB1C37D85A005FA212 /* createAsyncConnection.codesnippet */; };
+		714584081C37D85A005FA212 /* createNsFetchRequest.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FC1C37D85A005FA212 /* createNsFetchRequest.codesnippet */; };
+		714584091C37D85A005FA212 /* createNSoperation.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FD1C37D85A005FA212 /* createNSoperation.codesnippet */; };
+		7145840A1C37D85A005FA212 /* createSlider.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FE1C37D85A005FA212 /* createSlider.codesnippet */; };
+		7145840B1C37D85A005FA212 /* createSwitchView.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714583FF1C37D85A005FA212 /* createSwitchView.codesnippet */; };
+		7145840C1C37D85A005FA212 /* createUIbutton.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584001C37D85A005FA212 /* createUIbutton.codesnippet */; };
+		7145840D1C37D85A005FA212 /* createUItextField.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584011C37D85A005FA212 /* createUItextField.codesnippet */; };
+		7145840E1C37D85A005FA212 /* implUICollectionViewDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584021C37D85A005FA212 /* implUICollectionViewDelegate.codesnippet */; };
+		7145840F1C37D85A005FA212 /* implUITableViewDataSource.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584031C37D85A005FA212 /* implUITableViewDataSource.codesnippet */; };
+		714584101C37D85A005FA212 /* implUITextFieldDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584041C37D85A005FA212 /* implUITextFieldDelegate.codesnippet */; };
+		714584111C37D85A005FA212 /* implUIWebViewDelegate.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 714584051C37D85A005FA212 /* implUIWebViewDelegate.codesnippet */; };
 		71BEB44A1C37C48200A56A92 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BEB4491C37C48200A56A92 /* AppKit.framework */; };
 		71BEB44C1C37C48200A56A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BEB44B1C37C48200A56A92 /* Foundation.framework */; };
 		71BEB4501C37C48200A56A92 /* XcodeSnippet.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 71BEB44F1C37C48200A56A92 /* XcodeSnippet.xcscheme */; };
@@ -27,18 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		71784B481C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUITextFieldDelegate.codesnippet; sourceTree = "<group>"; };
-		71784B491C37D2FD0082BE3A /* createUItextField.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createUItextField.codesnippet; sourceTree = "<group>"; };
-		71784B4A1C37D2FD0082BE3A /* createSlider.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createSlider.codesnippet; sourceTree = "<group>"; };
-		71784B4C1C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUICollectionViewDelegate.codesnippet; sourceTree = "<group>"; };
-		71784B4D1C37D2FD0082BE3A /* implUITableViewDataSource.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUITableViewDataSource.codesnippet; sourceTree = "<group>"; };
-		71784B4E1C37D2FD0082BE3A /* createNsFetchRequest.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createNsFetchRequest.codesnippet; sourceTree = "<group>"; };
-		71784B4F1C37D2FD0082BE3A /* createAsyncConnection.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createAsyncConnection.codesnippet; sourceTree = "<group>"; };
-		71784B501C37D2FD0082BE3A /* createSwitchView.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createSwitchView.codesnippet; sourceTree = "<group>"; };
-		71784B511C37D2FD0082BE3A /* implUIWebViewDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUIWebViewDelegate.codesnippet; sourceTree = "<group>"; };
-		71784B521C37D2FD0082BE3A /* createAlertView.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createAlertView.codesnippet; sourceTree = "<group>"; };
-		71784B531C37D2FD0082BE3A /* createNSoperation.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createNSoperation.codesnippet; sourceTree = "<group>"; };
-		71784B541C37D2FD0082BE3A /* createUIbutton.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createUIbutton.codesnippet; sourceTree = "<group>"; };
+		714583FA1C37D85A005FA212 /* createAlertView.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createAlertView.codesnippet; sourceTree = "<group>"; };
+		714583FB1C37D85A005FA212 /* createAsyncConnection.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createAsyncConnection.codesnippet; sourceTree = "<group>"; };
+		714583FC1C37D85A005FA212 /* createNsFetchRequest.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createNsFetchRequest.codesnippet; sourceTree = "<group>"; };
+		714583FD1C37D85A005FA212 /* createNSoperation.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createNSoperation.codesnippet; sourceTree = "<group>"; };
+		714583FE1C37D85A005FA212 /* createSlider.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createSlider.codesnippet; sourceTree = "<group>"; };
+		714583FF1C37D85A005FA212 /* createSwitchView.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createSwitchView.codesnippet; sourceTree = "<group>"; };
+		714584001C37D85A005FA212 /* createUIbutton.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createUIbutton.codesnippet; sourceTree = "<group>"; };
+		714584011C37D85A005FA212 /* createUItextField.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = createUItextField.codesnippet; sourceTree = "<group>"; };
+		714584021C37D85A005FA212 /* implUICollectionViewDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUICollectionViewDelegate.codesnippet; sourceTree = "<group>"; };
+		714584031C37D85A005FA212 /* implUITableViewDataSource.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUITableViewDataSource.codesnippet; sourceTree = "<group>"; };
+		714584041C37D85A005FA212 /* implUITextFieldDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUITextFieldDelegate.codesnippet; sourceTree = "<group>"; };
+		714584051C37D85A005FA212 /* implUIWebViewDelegate.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = implUIWebViewDelegate.codesnippet; sourceTree = "<group>"; };
 		71BEB4461C37C48200A56A92 /* XcodeSnippet.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeSnippet.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BEB4491C37C48200A56A92 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		71BEB44B1C37C48200A56A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -63,6 +63,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714583F91C37D85A005FA212 /* codesnippets */ = {
+			isa = PBXGroup;
+			children = (
+				714583FA1C37D85A005FA212 /* createAlertView.codesnippet */,
+				714583FB1C37D85A005FA212 /* createAsyncConnection.codesnippet */,
+				714583FC1C37D85A005FA212 /* createNsFetchRequest.codesnippet */,
+				714583FD1C37D85A005FA212 /* createNSoperation.codesnippet */,
+				714583FE1C37D85A005FA212 /* createSlider.codesnippet */,
+				714583FF1C37D85A005FA212 /* createSwitchView.codesnippet */,
+				714584001C37D85A005FA212 /* createUIbutton.codesnippet */,
+				714584011C37D85A005FA212 /* createUItextField.codesnippet */,
+				714584021C37D85A005FA212 /* implUICollectionViewDelegate.codesnippet */,
+				714584031C37D85A005FA212 /* implUITableViewDataSource.codesnippet */,
+				714584041C37D85A005FA212 /* implUITextFieldDelegate.codesnippet */,
+				714584051C37D85A005FA212 /* implUIWebViewDelegate.codesnippet */,
+			);
+			path = codesnippets;
+			sourceTree = "<group>";
+		};
 		71BEB43D1C37C48200A56A92 = {
 			isa = PBXGroup;
 			children = (
@@ -114,18 +133,7 @@
 		71BEB45F1C37C98D00A56A92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				71784B481C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet */,
-				71784B491C37D2FD0082BE3A /* createUItextField.codesnippet */,
-				71784B4A1C37D2FD0082BE3A /* createSlider.codesnippet */,
-				71784B4C1C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet */,
-				71784B4D1C37D2FD0082BE3A /* implUITableViewDataSource.codesnippet */,
-				71784B4E1C37D2FD0082BE3A /* createNsFetchRequest.codesnippet */,
-				71784B4F1C37D2FD0082BE3A /* createAsyncConnection.codesnippet */,
-				71784B501C37D2FD0082BE3A /* createSwitchView.codesnippet */,
-				71784B511C37D2FD0082BE3A /* implUIWebViewDelegate.codesnippet */,
-				71784B521C37D2FD0082BE3A /* createAlertView.codesnippet */,
-				71784B531C37D2FD0082BE3A /* createNSoperation.codesnippet */,
-				71784B541C37D2FD0082BE3A /* createUIbutton.codesnippet */,
+				714583F91C37D85A005FA212 /* codesnippets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,19 +194,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71784B5A1C37D2FD0082BE3A /* implUITableViewDataSource.codesnippet in Resources */,
-				71784B5C1C37D2FD0082BE3A /* createAsyncConnection.codesnippet in Resources */,
-				71784B571C37D2FD0082BE3A /* createSlider.codesnippet in Resources */,
-				71784B611C37D2FD0082BE3A /* createUIbutton.codesnippet in Resources */,
-				71784B551C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet in Resources */,
-				71784B561C37D2FD0082BE3A /* createUItextField.codesnippet in Resources */,
-				71784B5F1C37D2FD0082BE3A /* createAlertView.codesnippet in Resources */,
-				71784B591C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet in Resources */,
-				71784B5E1C37D2FD0082BE3A /* implUIWebViewDelegate.codesnippet in Resources */,
-				71784B5B1C37D2FD0082BE3A /* createNsFetchRequest.codesnippet in Resources */,
-				71784B601C37D2FD0082BE3A /* createNSoperation.codesnippet in Resources */,
-				71784B5D1C37D2FD0082BE3A /* createSwitchView.codesnippet in Resources */,
+				714584111C37D85A005FA212 /* implUIWebViewDelegate.codesnippet in Resources */,
+				714584081C37D85A005FA212 /* createNsFetchRequest.codesnippet in Resources */,
+				7145840F1C37D85A005FA212 /* implUITableViewDataSource.codesnippet in Resources */,
+				7145840A1C37D85A005FA212 /* createSlider.codesnippet in Resources */,
+				714584061C37D85A005FA212 /* createAlertView.codesnippet in Resources */,
 				71BEB4501C37C48200A56A92 /* XcodeSnippet.xcscheme in Resources */,
+				7145840E1C37D85A005FA212 /* implUICollectionViewDelegate.codesnippet in Resources */,
+				7145840C1C37D85A005FA212 /* createUIbutton.codesnippet in Resources */,
+				714584091C37D85A005FA212 /* createNSoperation.codesnippet in Resources */,
+				7145840B1C37D85A005FA212 /* createSwitchView.codesnippet in Resources */,
+				7145840D1C37D85A005FA212 /* createUItextField.codesnippet in Resources */,
+				714584071C37D85A005FA212 /* createAsyncConnection.codesnippet in Resources */,
+				714584101C37D85A005FA212 /* implUITextFieldDelegate.codesnippet in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
