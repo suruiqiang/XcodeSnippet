@@ -25,6 +25,6 @@ create + button(without UI prefix) ＝  createButton.
 ![create uielements](https://raw.githubusercontent.com/suruiqiang/XcodeSnippet/master/create-ui-elements.gif)  
 
 
-![implement delegate](https://raw.githubusercontent.com/suruiqiang/XcodeSnippet/master/implement-delegate-datasource)  
+![implement delegate](https://raw.githubusercontent.com/suruiqiang/XcodeSnippet/master/implement-delegate-datasource.gif)  
 
 
