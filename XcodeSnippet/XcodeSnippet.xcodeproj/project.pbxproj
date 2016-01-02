@@ -24,7 +24,6 @@
 		71BEB4501C37C48200A56A92 /* XcodeSnippet.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 71BEB44F1C37C48200A56A92 /* XcodeSnippet.xcscheme */; };
 		71BEB4531C37C48200A56A92 /* XcodeSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEB4521C37C48200A56A92 /* XcodeSnippet.m */; };
 		71BEB4561C37C48200A56A92 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEB4551C37C48200A56A92 /* NSObject_Extension.m */; };
-		71BEB45E1C37C4EF00A56A92 /* DefaultReplaceOther.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BEB45D1C37C4EF00A56A92 /* DefaultReplaceOther.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		71BEB4541C37C48200A56A92 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		71BEB4551C37C48200A56A92 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		71BEB4571C37C48200A56A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71BEB45D1C37C4EF00A56A92 /* DefaultReplaceOther.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultReplaceOther.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 				71BEB4541C37C48200A56A92 /* NSObject_Extension.h */,
 				71BEB4551C37C48200A56A92 /* NSObject_Extension.m */,
 				71BEB4571C37C48200A56A92 /* Info.plist */,
-				71BEB45D1C37C4EF00A56A92 /* DefaultReplaceOther.plist */,
 				71BEB44E1C37C48200A56A92 /* Supporting Files */,
 			);
 			path = XcodeSnippet;
@@ -194,7 +191,6 @@
 				71784B571C37D2FD0082BE3A /* createSlider.codesnippet in Resources */,
 				71784B611C37D2FD0082BE3A /* createUIbutton.codesnippet in Resources */,
 				71784B551C37D2FD0082BE3A /* implUITextFieldDelegate.codesnippet in Resources */,
-				71BEB45E1C37C4EF00A56A92 /* DefaultReplaceOther.plist in Resources */,
 				71784B561C37D2FD0082BE3A /* createUItextField.codesnippet in Resources */,
 				71784B5F1C37D2FD0082BE3A /* createAlertView.codesnippet in Resources */,
 				71784B591C37D2FD0082BE3A /* implUICollectionViewDelegate.codesnippet in Resources */,
