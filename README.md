@@ -22,9 +22,9 @@ I think a good guide line will be helpful for u use the codesnippets.   the UiKi
 
 create + button(without UI prefix) ＝  createButton.
 
-![create uielements](https://github.com/suruiqiang/XcodeSnippet/master/XcodeSnippet/screenshot/create_ui_elements.gif)  
+![create uielements](https://github.com/suruiqiang/XcodeSnippet/master/screenshot/create_ui_elements.gif)  
 
 
-![implement delegate](https://github.com/suruiqiang/XcodeSnippet/master/XcodeSnippet/screenshot/implement_delegate_datasource.gif)  
+![implement delegate](https://github.com/suruiqiang/XcodeSnippet/master/screenshot/implement_delegate_datasource.gif)  
 
 
