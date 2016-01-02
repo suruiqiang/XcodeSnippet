@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createUIbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIButton *aButton = [[UIButton alloc]initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    aButton.backgroundColor = [UIColor clearColor];
+    [aButton addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    [aButton setTitle:@"&lt;#title#&gt;" forState:UIControlStateNormal];
+    aButton.titleLabel.font = [UIFont systemFontOfSize:17];
+    [aButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [aButton setTitleColor:[UIColor blackColor] forState:UIControlStateDisabled];
+    [aButton setBackgroundImage:[UIImage imageNamed:@"&lt;#imageName#&gt;"] forState:UIControlStateNormal];
+    [aButton setBackgroundImage:[UIImage imageNamed:@"&lt;#imageName#&gt;"] forState:UIControlStateHighlighted];
+    &lt;#custom#&gt;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E76EEAA9-1595-45DF-A138-10EAE1FC6562</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CreteUIButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>creteBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

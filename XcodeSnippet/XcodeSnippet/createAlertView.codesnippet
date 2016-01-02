@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createAlertView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *destructiveButtonTitle = NSLocalizedString(@"Destructive Choice", nil);
+    NSString *otherButtonTitle = NSLocalizedString(@"Safe Choice", nil);
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:&lt;#(nullable NSString *)#&gt;  message:&lt;#(nullable NSString *)#&gt;  preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    // Create the actions.
+    UIAlertAction *destructiveAction = [UIAlertAction actionWithTitle:destructiveButtonTitle style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        NSLog(@"The \"Other\" alert action sheet's destructive action occured.");
+    }];
+    
+    UIAlertAction *otherAction = [UIAlertAction actionWithTitle:otherButtonTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSLog(@"The \"Other\" alert action sheet's other action occured.");
+    }];
+    [alertController addAction:destructiveAction];
+    [alertController addAction:otherAction];
+    [&lt;#self#&gt; presentViewController:alertController animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CA8FADFB-C90A-4C7D-BC81-44FE962C688A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create UIalertView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CreatUIAlertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createUItextField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    
+    UITextField *aTextField = [[UITextField alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    aTextField.returnKeyType = &lt;#UIReturnKeyDone&gt;;
+    aTextField.enablesReturnKeyAutomatically = YES;
+    aTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    aTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    aTextField.backgroundColor = [UIColor clearColor];
+    aTextField.delegate = self;
+    aTextField.textAlignment = NSTextAlignmentCenter;
+    aTextField.font = [UIFont systemFontOfSize:&lt;#15#&gt;];
+    [aTextField setTextColor:[UIColor blackColor]];
+    [aTextField addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventEditingChanged];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>500B1050-E528-4BD0-9872-EB5C86CE1C79</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>textcreate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>createUItextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

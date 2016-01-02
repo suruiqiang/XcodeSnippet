@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createNSoperation</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)init {
+    self = [super init];
+    if (self) {
+        executing = NO;
+        finished = NO;
+    }
+    return self;
+}
+- (void)start {
+    // Always check for cancellation before launching the task.
+    if ([self isCancelled])
+    {
+        // Must move the operation to the finished state if it is canceled.
+        [self willChangeValueForKey:@"isFinished"];
+        finished = YES;
+        [self didChangeValueForKey:@"isFinished"];
+        return;
+    }
+    // If the operation is not canceled, begin executing the task.
+    [self willChangeValueForKey:@"isExecuting"];
+    [self main];
+    executing = YES;
+    [self didChangeValueForKey:@"isExecuting"];
+}
+- (void)main {
+    @autoreleasepool {
+        BOOL isDone = NO;
+        while (![self isCancelled] &amp;&amp; !isDone) {
+            // Do some work and set isDone to YES when finished
+        }
+        [self completeOperation];
+    }
+}
+- (void)completeOperation {
+    [self willChangeValueForKey:@"isFinished"];
+    [self willChangeValueForKey:@"isExecuting"];
+    executing = NO;
+    finished = YES;
+    [self didChangeValueForKey:@"isExecuting"];
+    [self didChangeValueForKey:@"isFinished"];
+}
+- (void)cancel {
+    [super cancel];
+    //取消网络请求
+}
+- (BOOL)isConcurrent {
+    return YES;
+}
+- (BOOL)isExecuting {
+    return executing;
+}
+- (BOOL)isFinished {
+    return finished;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CDF5BBCD-9DE2-45B9-8E34-D50711B5D47D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create Cutsom NSoperation</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

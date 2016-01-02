@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createSlider</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UISlider *aslider = [[UISlider alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    aslider.minimumValue = 0;
+    aslider.maximumValue = 100;
+    aslider.value = 42;
+    aslider.minimumTrackTintColor = [UIColor orangeColor];
+    aslider.maximumTrackTintColor = [UIColor blackColor];
+    aslider.minimumValueImage = [UIImage imageNamed:&lt;#(nullable NSString *)#&gt;];
+    aslider.maximumValueImage = [UIImage imageNamed:&lt;#(nullable NSString *)#&gt;];
+    aslider.continuous = YES;
+    [aslider addTarget:self action:@selector(sliderValueDidChange:) forControlEvents:UIControlEventValueChanged];
+
+- (void)sliderValueDidChange:(UISlider *)slider {
+    NSLog(@"A slider changed its value: %@", slider);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>740D2A8E-6569-4F8A-8D05-C4BCCCD08E7C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>createUISlider</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>createUISlider</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

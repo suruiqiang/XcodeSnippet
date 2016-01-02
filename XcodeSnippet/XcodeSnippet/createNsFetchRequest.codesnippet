@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createNsFetchRequest</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    NSManagedObjectContext *moContext =((AppDelegate*)[UIApplication sharedApplication].delegate).managedObjectContext;
+    NSFetchRequest *request = [[NSFetchRequest alloc]init];
+    NSPredicate *predicateUid = [NSPredicate predicateWithFormat:&lt;#(nonnull NSString *), ...#&gt;];
+    NSSortDescriptor *sortDescriptor = [[ NSSortDescriptor alloc ] initWithKey:@"createAt" ascending:YES ];
+    [request setSortDescriptors:ObjectsArray(sortDescriptor)];
+    [request setPredicate:predicateUid];
+    [request setFetchOffset:offset];
+    [request setFetchLimit:limit];
+    request.entity = [NSEntityDescription entityForName:&lt;#(nonnull NSString *)#&gt; inManagedObjectContext:moContext];
+    NSError *error = nil;
+    NSArray *resultArray = [moContext executeFetchRequest:request error:&amp;error];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B8A8DA88-0591-4A39-AB44-8D035CD69E1D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create NSFetchRequest</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create NSFetchRequest</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
