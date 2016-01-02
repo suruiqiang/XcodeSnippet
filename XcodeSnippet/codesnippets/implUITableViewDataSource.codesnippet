@@ -20,9 +20,17 @@
     return &lt;#1#&gt;;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return &lt;#1#&gt;;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @<#CellIdentifier#>;;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (!cell) {
+          cell = [[<#UITableViewCell#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    <#custom#>
+    return cell;
 }
+
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AC788245-EAF7-4046-9A5F-94F8528F49DC</string>
