@@ -20,6 +20,7 @@
     return sharedPlugin;
 }
 
+
 - (id)initWithBundle:(NSBundle *)plugin
 {
     if (self = [super init]) {
